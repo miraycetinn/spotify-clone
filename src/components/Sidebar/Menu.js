@@ -1,36 +1,42 @@
-import { Icon } from "Icons";
+import {Icon} from "Icons";
+import {NavLink} from "react-router-dom";
 
 function Menu() {
+    const classNameSelector=({isActive = false})=> isActive ? "h-10 flex gap-x-4 items-center text-sm font-semibold text-white rounded hover:text-white px-4 bg-active" :
+        "h-10 flex gap-x-4 items-center text-sm font-semibold text-link rounded hover:text-white px-4"
     return (
         <nav className="px-2">
             <ul className="flex flex-col">
                 <li>
-                    <a href="#" className="h-10 flex gap-x-4 items-center text-sm font-semibold text-white rounded hover:text-white px-4 bg-active">
+                    <NavLink to={"/"} className={classNameSelector}>
                         <span>
-                            <Icon name="home" />
+                            <Icon name="home"/>
                         </span>
                         Anasayfa
-                    </a>
+                    </NavLink>
                 </li>
                 <li>
-                    <a href="#" className="h-10 flex gap-x-4 items-center text-sm font-semibold text-link rounded hover:text-white px-4">
+                    <NavLink to={"/search"}
+                             className={classNameSelector}>
                         <span>
-                            <Icon name="search" />
+                            <Icon name="search"/>
                         </span>
                         Ara
-                    </a>
+                    </NavLink>
                 </li>
                 <li>
-                    <a href="#" className="h-10 flex gap-x-4 items-center text-sm font-semibold text-link rounded hover:text-white px-4">
+                    <NavLink to={"/collection"}
+                             className={classNameSelector}>
                          <span>
-                            <Icon name="collection" />
+                            <Icon name="collection"/>
                         </span>
                         Kitaplığın
-                    </a>
+                    </NavLink>
                 </li>
             </ul>
         </nav>
 
     )
 }
+
 export default Menu
