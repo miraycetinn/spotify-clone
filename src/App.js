@@ -3,17 +3,18 @@ import Navbar from "./components/Navbar";
 import Bottombar from "./components/Bottombar";
 import Content from "./components/Content";
 import { BrowserRouter as Router } from 'react-router-dom';
+import {useState} from "react";
 
 
 function App() {
+
   return (
     <Router>
       <div className="wrapper">
         <Sidebar />
-          <Content />
+          <Content  />
       </div>
-        <Bottombar />
-
+            <Bottombar />
     </Router>
   );
 }
