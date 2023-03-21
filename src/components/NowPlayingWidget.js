@@ -11,9 +11,6 @@ const NowPlayingWidget = ({ albumCover , songName , artist }) => {
                 <span className="text-sm hover:underline">{songName}</span>
                 <span className="text-xs text-link hover:underline">{artist}</span>
             </div>
-
-
-
         </div>
     );
 };

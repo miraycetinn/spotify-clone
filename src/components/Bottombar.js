@@ -54,9 +54,9 @@ function Bottombar() {
 
                 <div className=" w-1/3 bg-gray-200 rounded-full h-1.5 group dark:bg-gray-700">
                     <div className="bg-white h-1.5 group-hover:bg-green-600 rounded-full" style={{width: "45%"}}></div>
+
                 </div>
             </div>
-
 
             <div className="flex w-1/3 items-center ">
                 <div className="flex flex-row ml-48">
@@ -88,14 +88,18 @@ function Bottombar() {
                                 d="M11.5 13.614a5.752 5.752 0 0 0 0-11.228v1.55a4.252 4.252 0 0 1 0 8.127v1.55z"></path>
                         </svg>
                     </button>
-                    <div className="bg-gray-200 rounded-full h-1.5 group dark:bg-gray-700">
-                        <div className="bg-white h-1.5 group-hover:bg-green-600 rounded-full" style={{width: "45%"}}></div>
+                    <div className="w-24 m-auto ml-2 bg-gray-200 rounded-full h-1 group dark:bg-gray-700">
+                        <div className="bg-white h-1 group-hover:bg-green-600 rounded-full" style={{width: "45%"}}></div>
                     </div>
+                    <button>
+                        <svg role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16" data-encore-id="icon" fill="#FFFFFF"
+                             className="m-auto ml-4 Svg-sc-ytk21e-0 uPxdw">
+                            <path
+                                d="M6.53 9.47a.75.75 0 0 1 0 1.06l-2.72 2.72h1.018a.75.75 0 0 1 0 1.5H1.25v-3.579a.75.75 0 0 1 1.5 0v1.018l2.72-2.72a.75.75 0 0 1 1.06 0zm2.94-2.94a.75.75 0 0 1 0-1.06l2.72-2.72h-1.018a.75.75 0 1 1 0-1.5h3.578v3.579a.75.75 0 0 1-1.5 0V3.81l-2.72 2.72a.75.75 0 0 1-1.06 0z"></path>
+                        </svg>
+                    </button>
                 </div>
             </div>
-
-
-
         </div>
     )
 }
