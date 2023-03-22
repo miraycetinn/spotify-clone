@@ -10,7 +10,6 @@ const UserWidget = ({ name , imageUrl }) => {
                 <path d="m14 6-6 6-6-6h12z"></path>
             </svg>
         </button>
-
     );
 };
 export default UserWidget;
