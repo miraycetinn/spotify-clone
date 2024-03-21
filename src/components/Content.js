@@ -9,14 +9,16 @@ function Content() {
     return (
         <main className="flex-auto">
             <Navbar />
-            <Routes>
-                <Route path='/' element={<Home />} />
+            <div className="px-3 pt-2">
+                <Routes>
+                    <Route path='/' element={<Home />} />
 
-                <Route path='/search' element={<Search />} />
+                    <Route path='/search' element={<Search />} />
 
-                <Route path='/collection' element={<Collection />} />
+                    <Route path='/collection' element={<Collection />} />
 
-            </Routes>
+                </Routes>
+            </div>
         </main>
 
     )

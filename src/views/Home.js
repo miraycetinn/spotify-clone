@@ -1,5 +1,4 @@
 import React from "react";
-import AlbumCard from "../components/AlbumCard";
 import IntroductionCard from "../components/IntroductionCard";
 import Section from "../components/Section";
 
@@ -22,11 +21,15 @@ function Home() {
                 <IntroductionCard title={"Dilozof ile Dünyaya Fırlatıldık"} photo={<img src={"https://i.scdn.co/image/ab6765630000ba8a687eb911c1ecd8f490425f43"} alt="pdc" style={{width:"80px" , height:"80px"}} />}/>
             </div>
 
-            <Section title={"Art"}/>
-            <Section title={"Art"}/>
-            <Section title={"Art"}/>
-            <Section title={"Art"}/>
-            <Section title={"Art"}/>
+            <div className="space-y-7" >
+                <Section title={"Art"} more="/blabla"/>
+                <Section title={"Art"} more="/blabla"/>
+                <Section title={"Art"} more="/blabla"/>
+                <Section title={"Art"} more="/blabla"/>
+                <Section title={"Art"} more="/blabla"/>
+            </div>
+
+
 
             {/* <div className={"flex justify-between pb-3"}>
                 <h1 className="font-semibold text-white text-xl hover:underline">Episodes for you</h1>
