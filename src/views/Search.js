@@ -7,7 +7,7 @@ function Search() {
             <div className="flex">
                 <div className="pl-6 mt-4 font-semibold text-white text-xl">Browse All</div>
             </div>
-            <div className="flex justify-between pt-3 pl-6">
+            <div className="flex justify-between pt-3 pl-6 pr-3">
                 <div className="flex bg-orange-600 rounded-xl text-white font-semibold text-xl">
                     <BrowseCard boxTitle={"Podcast"} boxImage={<img src={"https://i.scdn.co/image/567158eb895ad26718a814345af0fc43ee785ec5"} alt="abc" style={{width:"100px" , height:"100px"}} />}/>
                 </div>
@@ -25,7 +25,7 @@ function Search() {
                 </div>
             </div>
 
-            <div className="flex justify-between pt-3 pl-6">
+            <div className="flex justify-between pt-3 pl-6 pr-3">
                 <div className="flex bg-orange-700 rounded-xl text-white font-semibold text-xl">
                     <BrowseCard boxTitle={"Hip-Hop"} boxImage={<img src={"https://i.scdn.co/image/ab67fb8200005caf7e11c8413dc33c00740579c1"} alt="abc" style={{width:"100px" , height:"100px"}} />}/>
                 </div>
@@ -43,7 +43,7 @@ function Search() {
                 </div>
             </div>
 
-            <div className="flex justify-between pt-3 pl-6">
+            <div className="flex justify-between pt-3 pl-6 pr-3">
                 <div className="flex bg-orange-500 rounded-xl text-white font-semibold text-xl">
                     <BrowseCard boxTitle={"Country"} boxImage={<img src={"https://i.scdn.co/image/ab67fb8200005cafc0d2222b4c6441930e1a386e"} alt="abc" style={{width:"100px" , height:"100px"}} />}/>
                 </div>
@@ -61,7 +61,7 @@ function Search() {
                 </div>
             </div>
 
-            <div className="flex justify-between pt-3 pl-6">
+            <div className="flex justify-between pt-3 pl-6 pr-3">
                 <div className="flex bg-teal-600 rounded-xl text-white font-semibold text-xl">
                     <BrowseCard boxTitle={"Summer"} boxImage={<img src={"https://i.scdn.co/image/ab67fb8200005caf097a46192e6bb67e52cdff60"} alt="abc" style={{width:"100px" , height:"100px"}} />}/>
                 </div>
