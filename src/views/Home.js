@@ -1,6 +1,7 @@
 import React from "react";
 import AlbumCard from "../components/AlbumCard";
 import IntroductionCard from "../components/IntroductionCard";
+import Section from "../components/Section";
 
 function Home() {
     return (
@@ -21,7 +22,13 @@ function Home() {
                 <IntroductionCard title={"Dilozof ile Dünyaya Fırlatıldık"} photo={<img src={"https://i.scdn.co/image/ab6765630000ba8a687eb911c1ecd8f490425f43"} alt="pdc" style={{width:"80px" , height:"80px"}} />}/>
             </div>
 
-            <div className={"flex justify-between pb-3"}>
+            <Section title={"Art"}/>
+            <Section title={"Art"}/>
+            <Section title={"Art"}/>
+            <Section title={"Art"}/>
+            <Section title={"Art"}/>
+
+            {/* <div className={"flex justify-between pb-3"}>
                 <h1 className="font-semibold text-white text-xl hover:underline">Episodes for you</h1>
                 <span>Show All</span>
             </div>
@@ -55,7 +62,7 @@ function Home() {
                 <AlbumCard name={"This Is Harry Styles"} photo={<img src={"https://i.scdn.co/image/ab67706f00000002f4bb692d1a4ad8ba79f84655"} alt="thisisharry" />} date={"The essential tracks.All in one playlist"} />
                 <AlbumCard name={"This Is Olivia Rodrigo"} photo={<img src={"https://i.scdn.co/image/ab67706f00000002c9da2f125669d66439d8ba5c"} alt="thisisolivia" />} date={"The essential tracks, all in one playlist"} />
                 <AlbumCard name={"This Is Labrinth"} photo={<img src={"https://thisis-images.scdn.co/37i9dQZF1DZ06evO1hiJc4-default.jpg"} alt="thisislabrinth"/>} date={"The essential tracks. All in one playlist"} />
-            </div>
+            </div> */}
         </div>
     )
 }
