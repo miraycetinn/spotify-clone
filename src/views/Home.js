@@ -21,7 +21,7 @@ function Home() {
                 <IntroductionCard title={"Dilozof ile Dünyaya Fırlatıldık"} photo={<img src={"https://i.scdn.co/image/ab6765630000ba8a687eb911c1ecd8f490425f43"} alt="pdc" style={{width:"80px" , height:"80px"}} />}/>
             </div>
 
-            <div className="space-y-7" >
+            <div className="space-y-6" >
                 <Section title={"Art"} more="/blabla"/>
                 <Section title={"Art"} more="/blabla"/>
                 <Section title={"Art"} more="/blabla"/>
