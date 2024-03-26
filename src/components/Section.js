@@ -5,7 +5,7 @@ function Section( {title, more = false}) {
     return(
         <section>
             <header className="flex items-center justify-between">
-                <h1 className="font-semibold text-white text-xl hover:underline">{title}</h1>
+                <h1 className="font-semibold text-black text-xl hover:underline">{title}</h1>
                 {more && (
                     <h1 className="font-semibold text-white text-sm hover:underline uppercase">
                         SEE ALL
